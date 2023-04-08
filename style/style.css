@@ -20,6 +20,9 @@ EEEEEE
 .nav-link{
     color: #EEEEEE;
 }
+.nav-link:hover{
+    color:#FFD369;
+}
 #hero{
     background-color: #EEEEEE;
     color: #222831;
@@ -55,18 +58,33 @@ footer{
     background-color : #222831;
     color: #EEEEEE;
 }
+.btn-cv:hover{
+    background-color: #FFD369;
+    color: #222831;
+}
 .btn-hire{
     background-color: #FFD369;
+}
+.btn-hire:hover{
+    background-color : #222831;
+    color: #EEEEEE;
 }
 .progress-color{
     background-color: #FFD369;
     color: #222831
 }
+.overlay-color{
+    background-color: #FFD369;
+    color: #EEEEEE;
+}
+
 
 .overlay{
     width: 100%;
     height: 100%;
     opacity: 0;
+    position: absolute;
+    z-index: 0;
     background-color: rgba(0, 0, 0, 0.7);
     transition: all 1s ease-in-out;
 }
